@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+header{
+    height: 80px;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+
+.myntra_home{
+    /* height: 36px;
+    width: 53px; */
+    height: 45px;
+}
+
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+
+.nav_bar{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_bar a{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color:#282c3f ;
+    text-decoration: none;
+    padding:  28px 0;
+    border-bottom:  5px solid #ffffff;
+}
+
+.nav_bar a:hover{
+    border-bottom: 4px solid #f54e77;
+}
+
+.nav_bar a sup{
+    color:#ff3f6c ;
+    font-size: 10px;
+}
+
+.search_bar{
+height: 40px;
+min-width: 200px;
+width: 30%;
+display: flex;
+align-items: center;
+}
+.search_icon{
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    background-color: #f5f5f6;
+    color:#282c3f ;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input{  
+background-color: #f5f5f6;
+color: #696e79;
+flex-grow: 1;
+height: 40px;
+border: 0;
+border-radius: 0 4px 4px 0;
+outline: 0;
+}
+
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bag-item-count{
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    right: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.action_container {
+    text-decoration: none;
+}
+a.action_container:link {
+    color: black;
+}
+
+/* Footer Section */
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: #696b79;
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+   margin-bottom: 20px;
+   font-weight: 700;
+}
+
+.copyright{
+    /* text-align: end; */
+    text-align: center;
+    color: #94969f;
+    padding: 15px;
+}
+
+/* Main Section */
+
+.items-container{
+ width: 80%;
+ /* margin-left: 10%;
+ margin-top: 50px; */
+ margin: 50px 10%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.item-container{
+    width: 250px;
+    margin: 10px;
+}
+
+.item-image{
+    width: 100%;
+}
+
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.company-name{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-name{
+    color: #535766;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.price{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+}
+
+.current-price{
+ font-size: 14px;
+ font-weight: 700;
+ color: #282c3f;
+}
+.original-price{
+    text-decoration: line-through;
+    columns: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ff905a;
+    margin-left: 5px;
+}
+.btn-add-bag{
+    width: 100%;
+    margin-top: 8px;
+    font-size: 18px;
+    background-color: lightgreen;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
